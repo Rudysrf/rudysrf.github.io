@@ -1,0 +1,32 @@
+body{
+
+ background: black url(shoot.jpg);
+    
+}
+
+#header{
+    text-align: center;
+    font-family: Courier New;
+    color: red;
+    font-size: 50px;
+}
+#header1{
+    text-align: center;
+    font-family: Monotype Corsiva;
+    color: red;
+}
+
+
+        
+}
+#center2{
+    text-align: center;
+}
+
+#center1{
+    text-align: center;
+    color: beige;
+}
+p{
+    margin-bottom: 20px;
+}

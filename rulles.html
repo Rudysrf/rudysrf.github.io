@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+    <link rel="stylesheet" href="stylerulles.css">
+
+    <script type="text/javascript">
+function Play(){
+    var question;
+do{
+question=prompt("Будем стреляться?1-да");
+if (question!=1) 
+alert("Слабак");
+var shot=(Math.random()*6);
+if (shot<1){
+alert("Ты застрелился");
+break;}
+if (shot>1) 
+alert("Стреляет игрок за столом №2");
+shot=(Math.random()*6);
+if (shot<1){
+alert("Застрелился игрок за столом №2");
+break;}
+if (shot>1) 
+alert("Стреляет игрок за столом №3");
+shot=(Math.random()*6);
+if (shot<1)
+alert("Застрелился игрок за столом №3");
+}while (shot> 1 );
+}					
+</script>
+<head><title>Обо мне</title></head>
+<body>
+<a href="index.html">Главная</a><span>/</span>
+<a href="puzzles.html">Загадки</a><span>/</span>
+<a href="guess.html">Угадайка</a><span>/</span>
+<div id="header">
+<h1>Будешь стрелять пока нажимаешь "1" или не застрелишься.</h1>
+</div>           
+    <div id="center1">
+        <p>Русская руллетка</p>   
+<br/>
+<a href="#" onclick="Play();" >Начать игру</a> 
+        
+    </div>
+<div id="center2"
+<p>На этом сайте вы сможете сыграть в <i>три игры</i>, написанные мною:</p>
+<a href="puzzles.html">
+Загадки<span>/</span>
+</a>
+<a href="guess.html">
+Угадайка<span>/</span>
+</a>
+</div></a>   
+</body>
+</html>
